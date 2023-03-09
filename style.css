@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+
+
+:root {
+    
+
+
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Skranji', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    background-color: greenyellow;
+    min-height: 80px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1 {
+    color: brown;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: normal;
+    margin-top: -40px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.164);
+}
+
+header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    color: white;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
