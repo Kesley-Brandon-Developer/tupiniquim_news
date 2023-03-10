@@ -6,11 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Notícias</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
         <h1>Tupiniquim News</h1>
         <p>As últimas e mais quentes notícias do Brasil e do Mundo!</p>
+
+        <div class="topnav">
+            <a href="#home" class="active">Logo do site</a>
+            <div id="myLinks">
+                <a href="#news">Notícias do Brasil</a>
+                <a href="#contact">Notícias do Mundo</a>
+                <a href="#news">Contato</a>
+            </div>
+            <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
         <hr>
     </header>
     <main>
@@ -21,5 +35,6 @@
     <footer>
         <p>Site Desenvolvido por <a href="#">Kesley Brandon</a></p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

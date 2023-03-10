@@ -5,6 +5,11 @@
 
 :root {
     
+    --cor0: #20D5E6;
+    --cor1: #008C99;
+    --cor2: #E57220;
+    --cor3: #FF8E3D;
+    --cor4: #99460B;
 
 
 
@@ -19,14 +24,14 @@
 
 
 header {
-    background-color: greenyellow;
+    background-color: var(--cor0);
     min-height: 80px;
     text-align: center;
     padding-top: 40px;
 }
 
 header > h1 {
-    color: brown;
+    color: var(--cor4);
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
@@ -44,6 +49,56 @@ header > p {
     margin-bottom: 5px;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
 main {
-    background-color: aqua;
+    background-color: #74c0c7;
+    
+    height: 600px;
+    
+}
+
+main p {
+    
+}
+
+footer {
+    background-color: var(--cor4);
+    height: 100px;
+    text-align: center;
+    padding: 10px;
 }
