@@ -11,10 +11,8 @@
 <body>
     <div class="topnav">
         <div id="myLinks">
-            <a href="#home"></a>
-            <a href="#news">Notícias do Brasil</a>
-            <a href="#contact">Notícias do Mundo</a>
-            <a href="#news">Contato</a>
+            <a href="noticias_brasil/news_brasil.html">Notícias do Brasil</a>
+            <a href="noticias_mundo/news_mundo.html">Notícias do Mundo</a>
         </div>
         <a href="javascript:void(0)" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
@@ -22,7 +20,7 @@
     </div>
 
     <header>
-        <a href="#" class="titulo">
+        <a href="index.html" class="titulo">
             <h1>Tupiniquim News</h1>
         </a>
         <p>As últimas e mais quentes notícias do Brasil e do Mundo!</p>
@@ -31,19 +29,62 @@
     </header>
     <main>
 
-        <img src="#" alt="">
-        <section>
-            <div class="container">
-                <a href="#">Imagem 1</a>
-                <a href="#">Imagem 2</a>
-                <a href="#">Imagem 3</a>
+        <section class="master">
+            
+                <h2 class="brasil">Notícias do Brasil</h2>
+            
+            <div class="container_top">
+                <a href="noticias_brasil/news_brasil.html">
+                        <div class="container">
+                            <img id="image" src="imagens/luz_azul.jpg"  alt="Imagem 1">
+                            <label id="texto">Luz azul não envelhece pele, mas pode afetar visão</label>
+                        </div>
+                </a>
+                <a href="noticias_brasil/news_brasil.html">
+                    <div class="container">
+                        <img id="image" src="imagens/Desembargadora-evento-TRF-6-foto-Nayara-Zanetti.jpg"  alt="Imagem 2">
+                        <label id="texto">Desembargadora do TRF em Juiz de Fora</label>
+                    </div>
+                </a>
 
+                <a href="noticias_brasil/news_brasil.html">
+                    <div class="container">
+                        <img id="image" src="imagens/dinossauros_gigantes.jpg"  alt="Imagem 3">
+                        <label id="texto">Estudo brasileiro: por que dinossauros ficaram gigantes</label>
+                    </div>
+                </a>
             </div>
+
+
+            <h2 class="mundo">Notícias do Mundo</h2>
+
+            <div class="container_bottom">
+                <a href="noticias_mundo/news_mundo.html">
+                        <div class="container">
+                            <img id="image" src="imagens/avanco_da_china.jpg"  alt="Imagem 4">
+                            <label id="texto">Avanço da China em paises na América do Sul e Caribe</label>
+                        </div>
+                </a>
+                <a href="noticias_mundo/news_mundo.html">
+                    <div class="container">
+                        <img id="image" src="imagens/spacex.jpg"  alt="Imagem 2">
+                        <label id="texto">Tripulação da SpaceX retorna depois de 5 meses </label>
+                    </div>
+                </a>
+
+                <a href="noticias_mundo/news_mundo.html">
+                    <div class="container">
+                        <img id="image" src="imagens/bbc-protestos-israele.jpg"  alt="Imagem 3">
+                        <label id="texto">Protestos históricos em Israel</label>
+                    </div>
+                </a>
+            </div>
+
         </section>
 
     </main>
     <footer>
-        <p>Site Desenvolvido por <a href="#">Kesley Brandon</a></p>
+        <p>Site Desenvolvido por <a href="https://github.com/Kesley-Brandon-Developer" target="_blank">Kesley Brandon</a></p>
     </footer>
     <script src="script.js"></script>
 </body>

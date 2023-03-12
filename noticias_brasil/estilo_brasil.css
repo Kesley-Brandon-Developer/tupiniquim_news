@@ -97,10 +97,13 @@ header > p {
     color: white;
 }
 
+
 main {
-    background-color: #3b27c0;
-    height: 600px;
-    padding: 20px 0px 0px 0px;    
+    background-color: var(--cor3);
+    /* background-color: rgb(190, 187, 187); */
+    height: 800px;
+    padding: 20px 0px 0px 0px; 
+    background-attachment: fixed;   
 }
 
 .master{
@@ -117,6 +120,7 @@ h2 {
 
 .container_top {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
@@ -135,18 +139,13 @@ h2 {
     position: absolute;
     color: white;
     font-size: 22px;
-    left: 30px;
-    top: 155px;
+    left: 320px;
+    top: 45px;
 }
 
 #texto:hover {
-    color: var(--cor4);
+    color: var(--cor2);
     text-decoration: underline;
-}
-
-.container_bottom {
-    display: flex;
-    justify-content: space-around;
 }
 
 
