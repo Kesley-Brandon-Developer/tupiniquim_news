@@ -5,11 +5,11 @@
 
 :root {
     
-    --cor0: #20D5E6;
-    --cor1: #008C99;
-    --cor2: #E57220;
-    --cor3: #FF8E3D;
-    --cor4: #99460B;
+    --cor0: #033D99;
+    --cor1: #2771E5;
+    --cor2: #99460B;
+    --cor3: #129959;
+    --cor4: #27E58B;
 
 
 
@@ -24,20 +24,22 @@
 
 
 header {
-    background-color: var(--cor0);
+    background-color: var(--cor3);
     min-height: 80px;
     text-align: center;
     padding-top: 40px;
 }
 
-header > h1 {
-    color: var(--cor4);
+
+.titulo {
+    color: var(--cor2);
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
     margin-top: -40px;
     margin-bottom: 5px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.164);
+    text-decoration: none;
 }
 
 header > p {
@@ -52,7 +54,7 @@ header > p {
 .topnav {
     overflow: hidden;
     background-color: #333;
-    position: relative;
+    position: static;
 }
 
 .topnav #myLinks {
@@ -68,7 +70,7 @@ header > p {
 }
 
 .topnav a.icon {
-    background: black;
+    background: grey;
     display: block;
     position: absolute;
     right: 0;
@@ -81,19 +83,23 @@ header > p {
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: black;
     color: white;
 }
 
 main {
-    background-color: #74c0c7;
+    background-color: rgb(190, 187, 187);
     
     height: 600px;
     
 }
 
-main p {
-    
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 30px;
+    background-color: #129959;
 }
 
 footer {
